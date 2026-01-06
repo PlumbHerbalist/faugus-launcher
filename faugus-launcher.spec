@@ -1,5 +1,5 @@
 Name:           faugus-launcher
-Version:        1.11.8
+Version:        1.12.2
 Release:        1
 Summary:        A simple and lightweight app for running Windows games using UMU-Launcher
 Group:          Games
@@ -34,8 +34,6 @@ A simple and lightweight app for running Windows games using UMU-Launcher/UMU-Pr
 %{_bindir}/faugus-launcher
 %{_bindir}/faugus-run
 %{_bindir}/faugus-proton-manager
-%{_bindir}/faugus-components
-%{_bindir}/faugus-proton-downloader
 %{_datadir}/applications/*.desktop
 %{_datadir}/icons/hicolor/256x256/apps/*.png
 %{_iconsdir}/hicolor/256x256/apps/faugus-mono.svg
@@ -58,3 +56,4 @@ A simple and lightweight app for running Windows games using UMU-Launcher/UMU-Pr
 %lang(uk) %{_datadir}/locale/uk/LC_MESSAGES/*.mo
 %lang(zh_CN) %{_datadir}/locale/zh_CN/LC_MESSAGES/*.mo
 %{_datadir}/metainfo/faugus-launcher.metainfo.xml
+%{py_sitedir}/faugus
