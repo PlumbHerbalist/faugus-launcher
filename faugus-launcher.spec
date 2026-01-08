@@ -1,5 +1,5 @@
 Name:           faugus-launcher
-Version:        1.12.2
+Version:        1.13.1
 Release:        1
 Summary:        A simple and lightweight app for running Windows games using UMU-Launcher
 Group:          Games
@@ -9,9 +9,11 @@ Source0:        https://github.com/Faugus/faugus-launcher/archive/%{version}/%{n
 
 BuildArch:      noarch
 
-BuildSystem:	meson
+BuildSystem:    meson
 
-BuildRequires:	gtk-update-icon-cache
+BuildRequires:  gtk-update-icon-cache
+BuildRequires:  meson
+
 Requires:	python-gobject
 Requires:	python%{pyver}dist(requests)
 Requires:	python%{pyver}dist(icoextract)
